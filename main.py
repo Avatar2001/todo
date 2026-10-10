@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "hello"}
+    return {"message": "lol"}
 
 @app.get("/db-test")
 def test_database():
